@@ -74,55 +74,55 @@ WSGI_APPLICATION = 'newPollApp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'python_pollapp',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'ATOMIC_REQUESTS': True,
-
-    },
-    # 'read_db_1': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'database_name',
-    #     'USER': 'user',
-    #     'PASSWORD': 'password',
-    #     'HOST': 'host',
-    #     'PORT': '3306',
-    #     'ATOMIC_REQUESTS': True,
-
-    # },
-    # 'read_db_2': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'database_name',
-    #     'USER': 'user',
-    #     'PASSWORD': 'password',
-    #     'HOST': 'host',
-    #     'PORT': '3306',
-    #     'ATOMIC_REQUESTS': True,
-
-    # },
-    # 'read_db_3': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'database_name',
-    #     'USER': 'user',
-    #     'PASSWORD': 'password',
-    #     'HOST': 'host',
-    #     'PORT': '3306',
-    #     'ATOMIC_REQUESTS': True,
-
-    # },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'python_pollapp',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#         'HOST': '127.0.0.1',
+#         'PORT': '3306',
+#         'ATOMIC_REQUESTS': True,
+
+#     },
+#     # 'read_db_1': {
+#     #     'ENGINE': 'django.db.backends.mysql',
+#     #     'NAME': 'database_name',
+#     #     'USER': 'user',
+#     #     'PASSWORD': 'password',
+#     #     'HOST': 'host',
+#     #     'PORT': '3306',
+#     #     'ATOMIC_REQUESTS': True,
+
+#     # },
+#     # 'read_db_2': {
+#     #     'ENGINE': 'django.db.backends.mysql',
+#     #     'NAME': 'database_name',
+#     #     'USER': 'user',
+#     #     'PASSWORD': 'password',
+#     #     'HOST': 'host',
+#     #     'PORT': '3306',
+#     #     'ATOMIC_REQUESTS': True,
+
+#     # },
+#     # 'read_db_3': {
+#     #     'ENGINE': 'django.db.backends.mysql',
+#     #     'NAME': 'database_name',
+#     #     'USER': 'user',
+#     #     'PASSWORD': 'password',
+#     #     'HOST': 'host',
+#     #     'PORT': '3306',
+#     #     'ATOMIC_REQUESTS': True,
+
+#     # },
+# }
 
 
 # Password validation
